@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: var(--orange);
+    font-family: system-ui;
+    overflow: hidden;
+}
+
+.container{
+    width: 1450px;
+    height: 630px;
+    margin: 8%;
+    background: rgb(157, 149, 149);
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
